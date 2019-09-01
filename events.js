@@ -1,7 +1,11 @@
 // event module helps us bring event driven
 // programming to node js
+
+// first letter is capital
+// this is convention for naming a class
 const EventEmitter = require('events');
 
+// creating a object of the class
 const eventEmitter = new EventEmitter();
 
 // set what happens when event is fired
