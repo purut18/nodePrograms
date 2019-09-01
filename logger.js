@@ -19,3 +19,8 @@ module.exports.log = log;
 // of a object
 // eg. module.exports = log;
 // then use it as a function directly
+
+// output file path
+console.log(__filename);
+// output folder path
+console.log(__dirname);
