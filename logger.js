@@ -15,3 +15,7 @@ module.exports.log = log;
 // commented it out because it is an implementation  
 // detail that other modules don't need
 
+// we can also export only one function instead
+// of a object
+// eg. module.exports = log;
+// then use it as a function directly

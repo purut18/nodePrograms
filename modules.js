@@ -10,6 +10,10 @@
 // functions don't overwrite 
 // all modules are different
 
-var logger = require('./logger');
+const logger = require('./logger');
+
+// setting logger to contant helps so that
+// we dont accidently set logger to another value
+// this helps avoid errors
 
 logger.log('a random message');
